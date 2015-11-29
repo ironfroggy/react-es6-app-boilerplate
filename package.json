@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "App Boilerplate (Browserify, ES6, React)",
   "author": "Calvin Spealman",
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "babel-plugin-syntax-jsx": "^6.1.18",
     "babel-plugin-transform-react-jsx": "^6.1.18",
