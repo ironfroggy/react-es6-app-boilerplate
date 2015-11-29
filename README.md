@@ -1,6 +1,19 @@
-## React App ES6 Boilerplate
+## React App ES6/Less Boilerplate
 
-Start developing React JS applications easily with the included tooling. Using gulp with browserify and jasmine for testing.
+Start developing React JS applications easily with the included tooling. Using gulp with browserify and jasmine for testing. Implements a sample ReactJS application, "Reactive Notes", as examples of
+the setup. Included in the setup:
+
+- Browserify for Module unpacking
+- Less compilation
+- Live reloading on changes for development
+- ES6 transpilation via Babel
+- React and Flux layout example including components, actions, store, and dispatcher modules
+
+Still planned:
+
+- Example tests covering the new example app
+- Documenting example React application
+- Removing build/dist from repository
 
 Based on [React App Boilerplate](https://github.com/christianalfoni/react-app-boilerplate)
 
@@ -16,24 +29,9 @@ The boilerplate is minimalistic, meaning you have to expand on the current workf
 
 ### Changes
 
-**2.2.3**
-  - Now works with React 0.13.1 (Thanks to @fatso83)
+**1.0**
 
-**2.2.2**
-  - Added es5 shim to testrunner-phantom.js html as phantomJS does not have bind etc.
-
-**2.2.1**
-
-  - Updated package.json dep versions
-
-**2.2.0**
-
-  - Using gulp-watch instead of gulp.watch, now reacts to adding and deleting files
-
-**2.1.0**
-
-  - Fixed watch bug
-  - Deploy does not include react-addons
+Built from existing React boilerplate and added ES6, Less, and an example application.
 
 ### Development
 * Run `NODE_ENV=development gulp`
