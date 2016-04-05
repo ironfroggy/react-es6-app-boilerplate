@@ -2,4 +2,6 @@ import ReactDOM from 'react-dom';
 import React from 'react';
 import App from './App.jsx';
 
-ReactDOM.render(<App/>, document.querySelector('main'));
+var main = document.querySelector('main')
+if (main)
+    ReactDOM.render(<App/>, main);
